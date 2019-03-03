@@ -14,6 +14,9 @@
 		DE10B0832221801F0089398F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE10B0812221801F0089398F /* LaunchScreen.storyboard */; };
 		DE10B08E222180200089398F /* TrelloAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10B08D222180200089398F /* TrelloAppTests.swift */; };
 		DE10B099222180200089398F /* TrelloAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10B098222180200089398F /* TrelloAppUITests.swift */; };
+		DE10B0A7222184FA0089398F /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10B0A6222184FA0089398F /* Board.swift */; };
+		DE10B0A9222189680089398F /* BoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10B0A8222189680089398F /* BoardCollectionViewCell.swift */; };
+		DE10B0AB22218BF70089398F /* BoardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10B0AA22218BF70089398F /* BoardCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		DE10B094222180200089398F /* TrelloAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrelloAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE10B098222180200089398F /* TrelloAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrelloAppUITests.swift; sourceTree = "<group>"; };
 		DE10B09A222180200089398F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE10B0A6222184FA0089398F /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		DE10B0A8222189680089398F /* BoardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE10B0AA22218BF70089398F /* BoardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				DE10B07F2221801F0089398F /* Assets.xcassets */,
 				DE10B0812221801F0089398F /* LaunchScreen.storyboard */,
 				DE10B0842221801F0089398F /* Info.plist */,
+				DE10B0A6222184FA0089398F /* Board.swift */,
+				DE10B0A8222189680089398F /* BoardCollectionViewCell.swift */,
+				DE10B0AA22218BF70089398F /* BoardCollectionViewController.swift */,
 			);
 			path = TrelloApp;
 			sourceTree = "<group>";
@@ -258,6 +267,9 @@
 			files = (
 				DE10B07B2221801E0089398F /* ViewController.swift in Sources */,
 				DE10B0792221801E0089398F /* AppDelegate.swift in Sources */,
+				DE10B0A7222184FA0089398F /* Board.swift in Sources */,
+				DE10B0A9222189680089398F /* BoardCollectionViewCell.swift in Sources */,
+				DE10B0AB22218BF70089398F /* BoardCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
